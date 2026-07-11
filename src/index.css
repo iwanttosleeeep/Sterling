@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@300;500;700&family=Silkscreen:wght@400;700&family=Share+Tech+Mono&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-pixel: "Silkscreen", cursive;
+  --font-digital: "Share Tech Mono", monospace;
+  --color-primary: var(--primary-color);
+}
+
+@layer base {
+  :root {
+    --primary-color: #00ff00;
+  }
+  body {
+    @apply bg-[#0a0a0a] text-[#e0e0e0] font-sans selection:bg-primary selection:text-black;
+  }
+}
+
+.brutalist-border {
+  @apply border-2 border-[#333] hover:border-primary transition-colors duration-300;
+}
+
+.neo-shadow-active {
+  box-shadow: 2px 2px 0px 0px var(--primary-color);
+  opacity: 0.5;
+}
+

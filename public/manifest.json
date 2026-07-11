@@ -1,0 +1,23 @@
+{
+  "name": "2029 Access Granted",
+  "short_name": "2029 AG",
+  "description": "A futuristic mood and lyric tracker.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0502",
+  "theme_color": "#00ff00",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

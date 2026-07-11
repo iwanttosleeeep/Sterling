@@ -1,0 +1,1051 @@
+[
+  {
+    "echo": "A low signal, distant and blurred, still refusing to disappear.",
+    "song": "Radiohead - How to Disappear Completely",
+    "moods": [
+      1,
+      2
+    ],
+    "tags": [
+      "Melancholic",
+      "Overwhelmed",
+      "Lost",
+      "Existential",
+      "Lonely"
+    ],
+    "keywords": [
+      "numb",
+      "vanish",
+      "tired",
+      "dissociate",
+      "empty"
+    ],
+    "energy": 1,
+    "valence": 1
+  },
+  {
+    "echo": "A room too quiet, with every thought arriving at once.",
+    "song": "The Smiths - Asleep",
+    "moods": [
+      1
+    ],
+    "tags": [
+      "Gloomy",
+      "Lonely",
+      "Burnout",
+      "Subdued",
+      "Vulnerable"
+    ],
+    "keywords": [
+      "sleep",
+      "alone",
+      "heavy",
+      "sad",
+      "quiet"
+    ],
+    "energy": 1,
+    "valence": 1
+  },
+  {
+    "echo": "The pressure drops, and the dashboard keeps blinking anyway.",
+    "song": "Joy Division - Love Will Tear Us Apart",
+    "moods": [
+      1,
+      2
+    ],
+    "tags": [
+      "Melancholic",
+      "Anxious",
+      "Gritty",
+      "Uncertain"
+    ],
+    "keywords": [
+      "break",
+      "relationship",
+      "distance",
+      "cold",
+      "apart"
+    ],
+    "energy": 2,
+    "valence": 1
+  },
+  {
+    "echo": "Soft static for a heart running on emergency reserves.",
+    "song": "Elliott Smith - Between the Bars",
+    "moods": [
+      1,
+      2
+    ],
+    "tags": [
+      "Melancholic",
+      "Wistful",
+      "Vulnerable",
+      "Subdued"
+    ],
+    "keywords": [
+      "drink",
+      "night",
+      "regret",
+      "soft",
+      "spiral"
+    ],
+    "energy": 1,
+    "valence": 1
+  },
+  {
+    "echo": "A blank ceiling, a bright screen, and nowhere useful to put the ache.",
+    "song": "Phoebe Bridgers - Funeral",
+    "moods": [
+      1,
+      2
+    ],
+    "tags": [
+      "Gloomy",
+      "Vulnerable",
+      "Lonely",
+      "Existential"
+    ],
+    "keywords": [
+      "grief",
+      "funeral",
+      "cry",
+      "death",
+      "bed"
+    ],
+    "energy": 1,
+    "valence": 1
+  },
+  {
+    "echo": "The system is exhausted, but the cursor keeps asking for input.",
+    "song": "The Verve - The Drugs Don't Work",
+    "moods": [
+      1,
+      2
+    ],
+    "tags": [
+      "Burnout",
+      "Subdued",
+      "Overwhelmed",
+      "Melancholic"
+    ],
+    "keywords": [
+      "sick",
+      "worse",
+      "medicine",
+      "tired",
+      "done"
+    ],
+    "energy": 1,
+    "valence": 1
+  },
+  {
+    "echo": "A sealed room, a soft alarm, a life trying not to wake anyone.",
+    "song": "Radiohead - No Surprises",
+    "moods": [
+      2
+    ],
+    "tags": [
+      "Anxious",
+      "Subdued",
+      "Overwhelmed",
+      "Calm"
+    ],
+    "keywords": [
+      "stress",
+      "job",
+      "alarm",
+      "routine",
+      "collapse"
+    ],
+    "energy": 1,
+    "valence": 2
+  },
+  {
+    "echo": "Trying to look composed while the whole interface flickers.",
+    "song": "Radiohead - Creep",
+    "moods": [
+      1,
+      2
+    ],
+    "tags": [
+      "Anxious",
+      "Lost",
+      "Socially Drained",
+      "Vulnerable"
+    ],
+    "keywords": [
+      "awkward",
+      "shame",
+      "weird",
+      "outside",
+      "unwanted"
+    ],
+    "energy": 2,
+    "valence": 1
+  },
+  {
+    "echo": "The distance meter hits zero and still somehow wants another mile.",
+    "song": "Blur - No Distance Left to Run",
+    "moods": [
+      2
+    ],
+    "tags": [
+      "Wistful",
+      "Melancholic",
+      "Lost",
+      "Quarter-Life"
+    ],
+    "keywords": [
+      "ex",
+      "distance",
+      "ending",
+      "tired",
+      "goodbye"
+    ],
+    "energy": 2,
+    "valence": 2
+  },
+  {
+    "echo": "A rainy-window kind of defiance, small but still awake.",
+    "song": "Oasis - Stop Crying Your Heart Out",
+    "moods": [
+      2,
+      3
+    ],
+    "tags": [
+      "Hopeful",
+      "Vulnerable",
+      "Bittersweet",
+      "Uncertain"
+    ],
+    "keywords": [
+      "cry",
+      "hope",
+      "hang on",
+      "comfort",
+      "weather"
+    ],
+    "energy": 2,
+    "valence": 3
+  },
+  {
+    "echo": "Nostalgia arriving late, wearing somebody else's jacket.",
+    "song": "The Strokes - Someday",
+    "moods": [
+      3
+    ],
+    "tags": [
+      "Nostalgic",
+      "Bittersweet",
+      "Wistful",
+      "Chill"
+    ],
+    "keywords": [
+      "old days",
+      "friends",
+      "memory",
+      "youth",
+      "past"
+    ],
+    "energy": 3,
+    "valence": 3
+  },
+  {
+    "echo": "A familiar face in the crowd, or maybe just a beautiful system error.",
+    "song": "Arctic Monkeys - Cornerstone",
+    "moods": [
+      2,
+      3
+    ],
+    "tags": [
+      "Nostalgic",
+      "Lost",
+      "Lonely",
+      "Wistful"
+    ],
+    "keywords": [
+      "lookalike",
+      "bar",
+      "miss",
+      "memory",
+      "search"
+    ],
+    "energy": 2,
+    "valence": 2
+  },
+  {
+    "echo": "Ordinary life rendered in high contrast and suspiciously good lighting.",
+    "song": "Pulp - Common People",
+    "moods": [
+      3,
+      4
+    ],
+    "tags": [
+      "Gritty",
+      "Socially Drained",
+      "Defiant",
+      "Vibrant"
+    ],
+    "keywords": [
+      "class",
+      "party",
+      "ordinary",
+      "city",
+      "people"
+    ],
+    "energy": 4,
+    "valence": 3
+  },
+  {
+    "echo": "A loop you know too well, but the colors are hypnotic tonight.",
+    "song": "Tame Impala - Feels Like We Only Go Backwards",
+    "moods": [
+      2,
+      3
+    ],
+    "tags": [
+      "Dreamy",
+      "Restless",
+      "Existential",
+      "Bittersweet"
+    ],
+    "keywords": [
+      "loop",
+      "backwards",
+      "stuck",
+      "pattern",
+      "psychedelic"
+    ],
+    "energy": 3,
+    "valence": 2
+  },
+  {
+    "echo": "A Monday feeling with Friday lights reflected in the glass.",
+    "song": "The Cure - Friday I'm in Love",
+    "moods": [
+      3,
+      4
+    ],
+    "tags": [
+      "Hopeful",
+      "Chill",
+      "Dreamy",
+      "Serene"
+    ],
+    "keywords": [
+      "week",
+      "date",
+      "love",
+      "soft",
+      "bright"
+    ],
+    "energy": 3,
+    "valence": 4
+  },
+  {
+    "echo": "The day is messy, but the signal has started to clear.",
+    "song": "Blur - For Tomorrow",
+    "moods": [
+      3,
+      4
+    ],
+    "tags": [
+      "Hopeful",
+      "Uncertain",
+      "Productive",
+      "Quarter-Life"
+    ],
+    "keywords": [
+      "tomorrow",
+      "future",
+      "walk",
+      "city",
+      "better"
+    ],
+    "energy": 3,
+    "valence": 3
+  },
+  {
+    "echo": "A sly grin from the edge of the dance floor.",
+    "song": "Arctic Monkeys - Still Take You Home",
+    "moods": [
+      3,
+      4
+    ],
+    "tags": [
+      "Electric",
+      "Spontaneous",
+      "Socially Drained",
+      "Restless"
+    ],
+    "keywords": [
+      "night out",
+      "flirt",
+      "bar",
+      "dance",
+      "home"
+    ],
+    "energy": 4,
+    "valence": 3
+  },
+  {
+    "echo": "Running on charm, caffeine, and one very unstable plan.",
+    "song": "The Libertines - Can't Stand Me Now",
+    "moods": [
+      2,
+      3
+    ],
+    "tags": [
+      "Gritty",
+      "Defiant",
+      "Restless",
+      "Caffeinated"
+    ],
+    "keywords": [
+      "argument",
+      "chaos",
+      "friend",
+      "mess",
+      "fight"
+    ],
+    "energy": 4,
+    "valence": 2
+  },
+  {
+    "echo": "A clean little spark in the middle of the noise.",
+    "song": "Oasis - She's Electric",
+    "moods": [
+      4
+    ],
+    "tags": [
+      "Electric",
+      "Vibrant",
+      "Inspired",
+      "Spontaneous"
+    ],
+    "keywords": [
+      "spark",
+      "crush",
+      "bright",
+      "fun",
+      "strange"
+    ],
+    "energy": 4,
+    "valence": 4
+  },
+  {
+    "echo": "Sunlight through cheap curtains, everything suddenly possible.",
+    "song": "Supergrass - Alright",
+    "moods": [
+      4,
+      5
+    ],
+    "tags": [
+      "Energetic",
+      "Hopeful",
+      "Adventurous",
+      "Found"
+    ],
+    "keywords": [
+      "young",
+      "summer",
+      "friends",
+      "free",
+      "morning"
+    ],
+    "energy": 5,
+    "valence": 5
+  },
+  {
+    "echo": "A pulse under the floorboards saying yes, go, now.",
+    "song": "The Stone Roses - She Bangs the Drums",
+    "moods": [
+      4,
+      5
+    ],
+    "tags": [
+      "Electric",
+      "Vibrant",
+      "Connected",
+      "Energetic"
+    ],
+    "keywords": [
+      "drums",
+      "dance",
+      "pulse",
+      "joy",
+      "crowd"
+    ],
+    "energy": 5,
+    "valence": 5
+  },
+  {
+    "echo": "Ridiculous confidence, immaculate timing, no apology loaded.",
+    "song": "Blur - Parklife",
+    "moods": [
+      4
+    ],
+    "tags": [
+      "Vibrant",
+      "Defiant",
+      "Caffeinated",
+      "Socially Drained"
+    ],
+    "keywords": [
+      "confidence",
+      "routine",
+      "funny",
+      "street",
+      "swagger"
+    ],
+    "energy": 4,
+    "valence": 4
+  },
+  {
+    "echo": "The lights come up and somehow you are still standing.",
+    "song": "The Killers - Mr. Brightside",
+    "moods": [
+      3,
+      4
+    ],
+    "tags": [
+      "Anxious",
+      "Electric",
+      "Restless",
+      "Defiant"
+    ],
+    "keywords": [
+      "jealous",
+      "party",
+      "night",
+      "bright",
+      "overthinking"
+    ],
+    "energy": 5,
+    "valence": 3
+  },
+  {
+    "echo": "A rooftop feeling, loud enough to overwrite the doubt.",
+    "song": "Oasis - Supersonic",
+    "moods": [
+      4,
+      5
+    ],
+    "tags": [
+      "Energetic",
+      "Defiant",
+      "Ambitious",
+      "Caffeinated"
+    ],
+    "keywords": [
+      "fast",
+      "loud",
+      "swagger",
+      "escape",
+      "city"
+    ],
+    "energy": 5,
+    "valence": 4
+  },
+  {
+    "echo": "The archive marks this as faith, stubborn and neon-lit.",
+    "song": "Oasis - Acquiesce",
+    "moods": [
+      4
+    ],
+    "tags": [
+      "Connected",
+      "Hopeful",
+      "Driven",
+      "Found"
+    ],
+    "keywords": [
+      "together",
+      "trust",
+      "friend",
+      "believe",
+      "need"
+    ],
+    "energy": 4,
+    "valence": 4
+  },
+  {
+    "echo": "A whole sky opening where the ceiling used to be.",
+    "song": "Oasis - Live Forever",
+    "moods": [
+      5
+    ],
+    "tags": [
+      "Hopeful",
+      "Found",
+      "Inspired",
+      "Serene"
+    ],
+    "keywords": [
+      "forever",
+      "garden",
+      "alive",
+      "sky",
+      "dream"
+    ],
+    "energy": 4,
+    "valence": 5
+  },
+  {
+    "echo": "A heroic transmission from the best version of the night.",
+    "song": "The Stone Roses - I Am the Resurrection",
+    "moods": [
+      5
+    ],
+    "tags": [
+      "Defiant",
+      "Energetic",
+      "Found",
+      "Electric"
+    ],
+    "keywords": [
+      "resurrection",
+      "comeback",
+      "victory",
+      "alive",
+      "rise"
+    ],
+    "energy": 5,
+    "valence": 5
+  },
+  {
+    "echo": "The floor becomes a launchpad and everyone knows the password.",
+    "song": "Arctic Monkeys - I Bet You Look Good on the Dancefloor",
+    "moods": [
+      4,
+      5
+    ],
+    "tags": [
+      "Electric",
+      "Vibrant",
+      "Spontaneous",
+      "Connected"
+    ],
+    "keywords": [
+      "dancefloor",
+      "club",
+      "look",
+      "night",
+      "rush"
+    ],
+    "energy": 5,
+    "valence": 4
+  },
+  {
+    "echo": "A late-night message with a dangerous amount of glitter on it.",
+    "song": "The Strokes - Last Nite",
+    "moods": [
+      3,
+      4
+    ],
+    "tags": [
+      "Restless",
+      "Spontaneous",
+      "Bittersweet",
+      "Electric"
+    ],
+    "keywords": [
+      "last night",
+      "call",
+      "down",
+      "bar",
+      "retro"
+    ],
+    "energy": 4,
+    "valence": 3
+  },
+  {
+    "echo": "Forward motion, windows down, spirit reconnected.",
+    "song": "Primal Scream - Movin' on Up",
+    "moods": [
+      4,
+      5
+    ],
+    "tags": [
+      "Hopeful",
+      "Adventurous",
+      "Found",
+      "Driven"
+    ],
+    "keywords": [
+      "move",
+      "up",
+      "free",
+      "road",
+      "spirit"
+    ],
+    "energy": 5,
+    "valence": 5
+  },
+  {
+    "echo": "The machine says you are allowed to be enormous today.",
+    "song": "Oasis - Rock 'n' Roll Star",
+    "moods": [
+      5
+    ],
+    "tags": [
+      "Ambitious",
+      "Energetic",
+      "Defiant",
+      "Driven"
+    ],
+    "keywords": [
+      "star",
+      "stage",
+      "big",
+      "dream",
+      "tonight"
+    ],
+    "energy": 5,
+    "valence": 5
+  },
+  {
+    "echo": "A waterfall of static, bright enough to wash the bad code out.",
+    "song": "The Stone Roses - Waterfall",
+    "moods": [
+      4,
+      5
+    ],
+    "tags": [
+      "Serene",
+      "Ethereal",
+      "Hopeful",
+      "Adventurous"
+    ],
+    "keywords": [
+      "water",
+      "travel",
+      "carry",
+      "flow",
+      "open"
+    ],
+    "energy": 4,
+    "valence": 5
+  },
+  {
+    "echo": "Soft gold around the edges of a hard day.",
+    "song": "Big Thief - Not",
+    "moods": [
+      2,
+      3
+    ],
+    "tags": [
+      "Vulnerable",
+      "Ethereal",
+      "Wistful",
+      "Uncertain"
+    ],
+    "keywords": [
+      "not",
+      "truth",
+      "body",
+      "raw",
+      "confused"
+    ],
+    "energy": 3,
+    "valence": 2
+  },
+  {
+    "echo": "A careful little lantern for when the map gets vague.",
+    "song": "Big Thief - Certainty",
+    "moods": [
+      3,
+      4
+    ],
+    "tags": [
+      "Serene",
+      "Hopeful",
+      "Connected",
+      "Vulnerable"
+    ],
+    "keywords": [
+      "certain",
+      "love",
+      "gentle",
+      "home",
+      "soft"
+    ],
+    "energy": 2,
+    "valence": 4
+  },
+  {
+    "echo": "A blue hour confession with all the edges left on.",
+    "song": "Phoebe Bridgers - Motion Sickness",
+    "moods": [
+      2,
+      3
+    ],
+    "tags": [
+      "Bittersweet",
+      "Melancholic",
+      "Defiant",
+      "Vulnerable"
+    ],
+    "keywords": [
+      "miss",
+      "hate",
+      "drive",
+      "sick",
+      "ex"
+    ],
+    "energy": 3,
+    "valence": 2
+  },
+  {
+    "echo": "A glittering panic attack pretending it came for the chorus.",
+    "song": "Wolf Alice - Don't Delete the Kisses",
+    "moods": [
+      3,
+      4
+    ],
+    "tags": [
+      "Dreamy",
+      "Anxious",
+      "Hopeful",
+      "Vulnerable"
+    ],
+    "keywords": [
+      "text",
+      "kiss",
+      "crush",
+      "delete",
+      "train"
+    ],
+    "energy": 3,
+    "valence": 4
+  },
+  {
+    "echo": "The night expands, cinematic and just a little haunted.",
+    "song": "M83 - Midnight City",
+    "moods": [
+      4,
+      5
+    ],
+    "tags": [
+      "Ethereal",
+      "Electric",
+      "Adventurous",
+      "Dreamy"
+    ],
+    "keywords": [
+      "midnight",
+      "city",
+      "lights",
+      "drive",
+      "synth"
+    ],
+    "energy": 5,
+    "valence": 4
+  },
+  {
+    "echo": "A soft-focus portal opens in the middle of the commute.",
+    "song": "Beach House - Space Song",
+    "moods": [
+      2,
+      3
+    ],
+    "tags": [
+      "Dreamy",
+      "Ethereal",
+      "Wistful",
+      "Lonely"
+    ],
+    "keywords": [
+      "space",
+      "float",
+      "dream",
+      "loss",
+      "soft"
+    ],
+    "energy": 2,
+    "valence": 3
+  },
+  {
+    "echo": "The plan is fragile, the ambition is not.",
+    "song": "LCD Soundsystem - All My Friends",
+    "moods": [
+      3,
+      4
+    ],
+    "tags": [
+      "Nostalgic",
+      "Driven",
+      "Connected",
+      "Quarter-Life"
+    ],
+    "keywords": [
+      "friends",
+      "age",
+      "party",
+      "home",
+      "career"
+    ],
+    "energy": 4,
+    "valence": 3
+  },
+  {
+    "echo": "A clean break rendered in bright, merciless pixels.",
+    "song": "Yeah Yeah Yeahs - Maps",
+    "moods": [
+      2,
+      3
+    ],
+    "tags": [
+      "Vulnerable",
+      "Wistful",
+      "Connected",
+      "Uncertain"
+    ],
+    "keywords": [
+      "map",
+      "wait",
+      "love",
+      "leave",
+      "direction"
+    ],
+    "energy": 3,
+    "valence": 3
+  },
+  {
+    "echo": "A city pulse for when solitude starts looking stylish.",
+    "song": "Interpol - Obstacle 1",
+    "moods": [
+      2,
+      3
+    ],
+    "tags": [
+      "Gritty",
+      "Lonely",
+      "Restless",
+      "Subdued"
+    ],
+    "keywords": [
+      "city",
+      "dark",
+      "apartment",
+      "sharp",
+      "alone"
+    ],
+    "energy": 4,
+    "valence": 2
+  },
+  {
+    "echo": "A messy room, a bright idea, and the courage to begin badly.",
+    "song": "The Beths - Expert in a Dying Field",
+    "moods": [
+      3,
+      4
+    ],
+    "tags": [
+      "Productive",
+      "Anxious",
+      "Hopeful",
+      "Vulnerable"
+    ],
+    "keywords": [
+      "expert",
+      "work",
+      "learn",
+      "try",
+      "field"
+    ],
+    "energy": 4,
+    "valence": 4
+  },
+  {
+    "echo": "The archive detects romance, danger, and excellent bass tone.",
+    "song": "Franz Ferdinand - Take Me Out",
+    "moods": [
+      4,
+      5
+    ],
+    "tags": [
+      "Electric",
+      "Spontaneous",
+      "Vibrant",
+      "Socially Drained"
+    ],
+    "keywords": [
+      "take",
+      "out",
+      "dance",
+      "sharp",
+      "night"
+    ],
+    "energy": 5,
+    "valence": 4
+  },
+  {
+    "echo": "A small private anthem for refusing to fold.",
+    "song": "Japanese Breakfast - Be Sweet",
+    "moods": [
+      4
+    ],
+    "tags": [
+      "Hopeful",
+      "Vibrant",
+      "Connected",
+      "Defiant"
+    ],
+    "keywords": [
+      "sweet",
+      "forgive",
+      "bright",
+      "again",
+      "care"
+    ],
+    "energy": 4,
+    "valence": 4
+  },
+  {
+    "echo": "Your future self sends a short message: keep going.",
+    "song": "HAIM - The Steps",
+    "moods": [
+      3,
+      4
+    ],
+    "tags": [
+      "Driven",
+      "Frustrated",
+      "Hopeful",
+      "Ambitious"
+    ],
+    "keywords": [
+      "steps",
+      "try",
+      "understand",
+      "work",
+      "forward"
+    ],
+    "energy": 4,
+    "valence": 4
+  },
+  {
+    "echo": "A ghostly chord progression for one more lap around the thought.",
+    "song": "The National - I Need My Girl",
+    "moods": [
+      2,
+      3
+    ],
+    "tags": [
+      "Wistful",
+      "Lonely",
+      "Melancholic",
+      "Vulnerable"
+    ],
+    "keywords": [
+      "need",
+      "girl",
+      "miss",
+      "call",
+      "home"
+    ],
+    "energy": 2,
+    "valence": 2
+  }
+]
