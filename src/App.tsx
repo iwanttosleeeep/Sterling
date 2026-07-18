@@ -4,7 +4,7 @@ import { MoodTracker } from './components/MoodTracker';
 import { MoodEntry, MOOD_LEVELS, MOOD_TAGS, VaultFile } from './types';
 import { matchLyricArchive } from './data/lyricArchive';
 import { motion, AnimatePresence } from 'motion/react';
-import { Terminal, History, Activity, Database, Trash2, Settings, Palette, Download, Upload, Edit3, RefreshCw, Search, X, FileText } from 'lucide-react';
+import { Terminal, History, Activity, Database, Trash2, Settings, Palette, Download, Upload, Edit3, RefreshCw, Search, X, FileText, CloudUpload } from 'lucide-react';
 
 type TabId = 'track' | 'history' | 'stats' | 'settings';
 
@@ -35,6 +35,9 @@ export default function App() {
   const [activeTab, setActiveTab] = useState<TabId>('track');
   const [themeColor, setThemeColor] = useState('#00ff00');
   const [backupStatus, setBackupStatus] = useState('');
+  const [gardenUrl, setGardenUrl] = useState('');
+  const [gardenSyncKey, setGardenSyncKey] = useState('');
+  const [gardenSyncStatus, setGardenSyncStatus] = useState('');
   const [editingEntry, setEditingEntry] = useState<MoodEntry | null>(null);
   const [archiveSearch, setArchiveSearch] = useState('');
   const [archiveMood, setArchiveMood] = useState('all');
@@ -82,7 +85,33 @@ export default function App() {
       setThemeColor(savedTheme);
       document.documentElement.style.setProperty('--primary-color', savedTheme);
     }
+    setGardenUrl(localStorage.getItem('garden_sync_url') || '');
+    setGardenSyncKey(localStorage.getItem('garden_sync_key') || '');
   }, []);
+
+  const saveGardenSyncSettings = () => {
+    localStorage.setItem('garden_sync_url', gardenUrl.trim().replace(/\/$/, ''));
+    localStorage.setItem('garden_sync_key', gardenSyncKey.trim());
+    setGardenSyncStatus('GARDEN CONNECTION SAVED LOCALLY');
+  };
+
+  const syncToGarden = async () => {
+    const baseUrl = gardenUrl.trim().replace(/\/$/, '');
+    const key = gardenSyncKey.trim();
+    if (!baseUrl || !key) { setGardenSyncStatus('SYNC FAILED / ADD GARDEN URL + SYNC KEY'); return; }
+    try {
+      setGardenSyncStatus('SYNCING TO GARDEN…');
+      const response = await fetch(`${baseUrl}/api/journal/sync/push`, {
+        method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
+        body: JSON.stringify({ app: 'sterling', exportedAt: new Date().toISOString(), themeColor, ...createVaultFile(entries) }),
+      });
+      const data = await response.json();
+      if (!response.ok || !data.ok) throw new Error(data.error || `HTTP ${response.status}`);
+      setGardenSyncStatus(`SYNC COMPLETE / ${data.imported} NEW / ${data.skipped} UNCHANGED`);
+    } catch (error) {
+      setGardenSyncStatus(`SYNC FAILED / ${error instanceof Error ? error.message : 'NETWORK ERROR'}`);
+    }
+  };
 
   const saveEntry = (entry: MoodEntry) => {
     setEntries((currentEntries) => {
@@ -555,6 +584,20 @@ export default function App() {
                       {backupStatus}
                     </p>
                   )}
+                </div>
+
+                <div className="mt-6 p-6 border border-[#333] bg-black/20">
+                  <h4 className="text-[10px] font-mono uppercase text-[#666] mb-4 tracking-widest">Garden_Sync</h4>
+                  <p className="text-xs font-mono text-[#999] leading-relaxed mb-4">Garden keeps the GitHub credential. Sterling keeps only a revocable journal-sync key.</p>
+                  <div className="space-y-3">
+                    <input value={gardenUrl} onChange={(event) => setGardenUrl(event.target.value)} placeholder="https://your-garden.example.com" className="w-full p-3 bg-black border border-[#333] text-primary text-xs font-mono outline-none focus:border-primary" />
+                    <input value={gardenSyncKey} onChange={(event) => setGardenSyncKey(event.target.value)} type="password" placeholder="Garden sync key" className="w-full p-3 bg-black border border-[#333] text-primary text-xs font-mono outline-none focus:border-primary" />
+                    <div className="flex flex-col sm:flex-row gap-3">
+                      <button onClick={saveGardenSyncSettings} className="flex-1 py-3 px-4 border-2 border-[#333] hover:border-primary text-primary font-mono uppercase text-xs tracking-widest">Save Connection</button>
+                      <button onClick={syncToGarden} disabled={entries.length === 0} className="flex-1 py-3 px-4 bg-primary text-black font-mono font-bold uppercase text-xs tracking-widest disabled:opacity-40 flex items-center justify-center gap-2"><CloudUpload size={16} /> Sync to Garden</button>
+                    </div>
+                    {gardenSyncStatus && <p className="text-[10px] font-mono uppercase tracking-widest text-primary/70">{gardenSyncStatus}</p>}
+                  </div>
                 </div>
               </div>
             </motion.div>
