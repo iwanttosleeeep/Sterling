@@ -1,4 +1,4 @@
-const CACHE_NAME = '2029-ag-v2';
+const CACHE_NAME = '2029-ag-v3';
 
 self.addEventListener('install', (event) => {
   self.skipWaiting();
